@@ -26,6 +26,18 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  cout << "Welcome to the machines" << endl;
+  
+  return 0;
+}
+```
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
