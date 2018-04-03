@@ -38,6 +38,26 @@ int main()
 }
 ```
 
+```c++
+template <class T>
+struct Node
+{
+    T data;
+    Node *next;
+    Node *prev;
+
+    Node()
+    {
+        next = prev = nullptr;
+    }
+
+    Node(T data) : Node()
+    {
+        this->data = data;
+    }
+};
+```
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
