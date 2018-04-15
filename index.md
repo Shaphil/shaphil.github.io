@@ -1,69 +1,48 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Shaphil/shaphil.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-```c++
-#include <iostream>
-using namespace std;
-
-int main()
+```json
 {
-  cout << "Welcome to the machines" << endl;
-  
-  return 0;
+  "name": "Md. Abdullah Al Mahmud",
+  "skills": {
+    "languages": [ "C++", "C#", "Python 3", "HTML5", "CSS3", "JavaScript" ],
+    "frameworks": [ "Angular", "Flask", "BootStrap" ],
+    "vcs": [ "Git" ],
+    "database": [ "MySQL", "SQLite", "MongoDB" ]
+  },
+  "education": {
+    "institute": "American International University-Bangladesh",
+    "degree": "BSc. in Computer Science and Engineering"
+  },
+  "experience": [
+    {
+      "company": "GOBD",
+      "job_title": "Software Engineer",
+      "job_duration": [ "July 2015", "January 2017" ],
+      "tasks": [
+        "Provide maintenance for an already built backend.",
+        "Help with the bug fixes and add features on demand.",
+        "Design and build new products as per project requirements."
+      ]
+    },
+    {
+      "company": " Start Up at Stealth Mode (Name protected by NDA)",
+      "job_title": "Software Engineer",
+      "job_duration": [ "April 2017", "June 2017" ],
+      "tasks": [
+        "Help build the front end as per given requirements.",
+        "Test, fix bugs and work on new features.",
+      ]
+    }
+  ],
+  "other": [
+    "Participated in Intra AIUB programming contest in “CS Fest 2013” and “CS Fest 2014” and  stood 4th and 3rd accordingly.",
+    "Participated in ACM ICPC Dhaka Regionals in 2013 & 2014 as teams “Algorithm_The_Podokkhep” & “MangoBar” respectively",
+    "Participated in NCPC 2014 as team “_fatalError”.",
+    "Playing guitar, drums, sketching and drawing."
+  ],
+  "contact": {
+    "personal": "https://shaphil.me",
+    "github": " https://github.com/Shaphil",
+    "twitter": "https://twitter.com/ShaphilMahmud",
+    "instagram": "https://www.instagram.com/shaphil.mahmud"
+  }
 }
 ```
-
-```c++
-template <class T>
-struct Node
-{
-    T data;
-    Node *next;
-    Node *prev;
-
-    Node()
-    {
-        next = prev = nullptr;
-    }
-
-    Node(T data) : Node()
-    {
-        this->data = data;
-    }
-};
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Shaphil/shaphil.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
