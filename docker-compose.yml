@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    image: shaphil/personal-site
+    container_name: shaphil-me
+    restart: always
+    ports:
+      - "80:80"
