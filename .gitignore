@@ -1,7 +1,5 @@
-# IDEs and Editors
-.vscode/*
-**/.vscode
-**/.vscode/*
-.idea/*
-**/.idea/
-**/.idea/*
+### IDEs and Editors
+.idea
+.idea/**
+.code
+.code/**
