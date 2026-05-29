@@ -7,7 +7,7 @@
       "uuidString" : "A334E912-127F-4933-92D5-AD8E55A35FBF"
     }
   ],
-  "creatorBuild" : "34510",
+  "creatorBuild" : "34576",
   "files" : {
     "\/bootstrap\/scss\/_accordion.scss" : {
       "aP" : 0,
@@ -1370,6 +1370,21 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/bootstrap\/scss\/tests\/mixins\/_auto-import-of-variables-dark.test.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/bootstrap\/scss\/tests\/mixins\/_auto-import-of-variables-dark.test.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/bootstrap\/scss\/tests\/mixins\/_color-modes.test.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2335,9 +2350,6 @@
       "no-new-native-nonconstructor" : {
         "active" : 0
       },
-      "no-new-object" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -2349,6 +2361,9 @@
       },
       "no-obj-calls" : {
         "active" : 1
+      },
+      "no-object-constructor" : {
+        "active" : 0
       },
       "no-octal" : {
         "active" : 1
@@ -2403,9 +2418,6 @@
       "no-return-assign" : {
         "active" : 0,
         "optionString" : "'except-parens'"
-      },
-      "no-return-await" : {
-        "active" : 0
       },
       "no-script-url" : {
         "active" : 0
